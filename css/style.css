@@ -80,6 +80,16 @@ a {
 h1{
     font-size: 22px;
 }
+
+h2{
+    font-size:20px;
+    font-weight:bold;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: bold;
+}
 /****** Header ***********/
 header{
     display: flex;
@@ -161,6 +171,11 @@ nav a:hover{
     margin-bottom:10px;
 }
 
+.filters p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .filters-btn-box{
     display: flex;
     gap:15px;
@@ -226,9 +241,61 @@ nav a:hover{
     box-sizing: border-box;
 }
 
+.card-subtitle{
+    font-size: 14px;
+}
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.hebergements-cards{
+    margin-top: 14px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.hebergements-cards .card{
+    width:240px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hebergements-cards img {
+    width:100%;
+    height:108px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 8px;
+    margin-left:10px;
+    margin-bottom: 8px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left:10px;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+    margin-left:10px;
+}
+
+#show-more{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:10px;
 }
 
 /****** Populaires ***********/
@@ -245,6 +312,7 @@ nav a:hover{
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .populaires-cards img {
