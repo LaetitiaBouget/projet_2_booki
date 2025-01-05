@@ -65,35 +65,29 @@ a {
 
 /****** Header ***********/
 header{
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin-top:10px;
-    
+    margin-bottom:50px;
 }
 
 header img{
     max-height: 20px;
+    margin-top: 30px;
 }
 
-header nav ul{
-    list-style-type: none;
-    display:flex;
+nav ul{
+    display: flex;
     flex-direction: row;
-    gap:30px;
-    
+    gap:70px;
+    list-style: none;
 }
 
-header nav a:hover{
+nav a:hover{
     color:#0065FC;
-    border-top: solid 2px #0065FC;
-    padding-top: 10px;
+    border-top:2px solid #0065FC;
+    padding-top:14px;
 }
-
-/****** Formulaire de recherche ***********/
-
-
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -196,55 +190,14 @@ header nav a:hover{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+/****** Formulaire de recherche ***********/
+
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-    header{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  
     
-    header img{
-        max-height: 20px;
-        margin:20px;
-    }
-
-    header nav{
-        align-self: stretch;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-
-    header nav ul{
-        padding:0px;
-        gap: 0px;
-    }
-
-    header nav ul li{
-        width:50%;
-        text-align: center;
-        border-bottom: solid 2px #80808033;
-        padding-bottom:16px;
-    }
-
-    header nav a:active{
-        color:#0065FC;
-    }
-
-    header nav ul li:active{
-        color:#0065FC;
-        border-top:none;
-        border-bottom:solid 2px #0065FC;
-        padding-bottom:16px;
-    }
-
-    header nav a:hover{
-        border-top:none;
-    }
-    
-
-    /* ... */
 }
