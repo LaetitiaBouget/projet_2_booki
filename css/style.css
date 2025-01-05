@@ -63,12 +63,29 @@ a {
     color: var(--main-bg-color)
 }
 
+.tagline{
+    margin-bottom: 30px;
+}
+
+.tagline h1, .tagline p {
+    margin: 0;
+}
+
+.tagline p {
+    margin-top: 5px;
+}
+
+/****** Header ***********/
+
+h1{
+    font-size: 22px;
+}
 /****** Header ***********/
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom:50px;
+    margin-bottom:60px;
 }
 
 header img{
@@ -87,6 +104,113 @@ nav a:hover{
     color:#0065FC;
     border-top:2px solid #0065FC;
     padding-top:14px;
+}
+
+/****** Formulaire de recherche ***********/
+
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 38px;;
+}
+.search i{
+    color:#000000;
+    background-color: #F2F2F2;
+    font-size: 20px;;
+    padding:16px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#search-form{
+    display: flex;
+}
+
+#search-form-field{
+    border-top:1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-left:none;
+    border-right: none;
+    text-align: center;
+    padding:0px 15px;
+    width:165px;
+}
+
+#search-form-field[value]{
+    font-size:18px;
+    font-weight: bold;
+}
+
+#search-form-btn-desktop{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:none;
+    background-color: #0065fc;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding:0 15px;
+}
+
+/****** Filtres ***********/
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+    margin-bottom:10px;
+}
+
+.filters-btn-box{
+    display: flex;
+    gap:15px;
+}
+
+.filters-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    height: 50px;
+    border-radius: 60px;
+    border: 2px solid #d9d9d9;
+    background-color: #ffffff;
+    padding:5px 20px;
+    white-space: nowrap;
+}
+
+.filters-btn:hover{
+    background-color: #deebff;
+}
+
+.filters-btn i{
+    font-size:20px;
+}
+
+.filters-btn p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.feedback-results{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.feedback-results i{
+    font-size: 12px;
+}
+
+.info-icon{
+    height:22px;
+    width:22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    border: solid 1px #d9d9d9;
 }
 
 /****** Hebergements And Populaires ***********/
