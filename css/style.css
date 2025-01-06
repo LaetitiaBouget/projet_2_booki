@@ -90,6 +90,7 @@ h3{
     font-size: 15px;
     font-weight: bold;
 }
+
 /****** Header ***********/
 header{
     display: flex;
@@ -382,6 +383,33 @@ nav a:hover{
     padding-bottom:5px;
 }
   
+/****** Footer ***********/
+
+footer {
+    background-color: var(--main-bg-color);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap:260px;
+    padding-left: 20px;
+}
+
+.footer-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li{
+    padding-bottom:10px;
+    font-size: 16px;;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
