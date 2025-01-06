@@ -344,7 +344,44 @@ nav a:hover{
     margin-bottom: 5px;
 }
 
+/****** Activites ***********/
 
+.activites{
+    margin: 70px 30px 30px 30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.activites .section-title{
+    margin-bottom: 20px;
+}
+   
+.activites-cards{
+    margin-top: 14px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:25px;
+}
+
+.activites-cards .card{
+    width:300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:0px;
+    
+}
+.activites-cards img {
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-txt{
+    margin-left:20px;
+    padding-bottom:5px;
+}
+  
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
